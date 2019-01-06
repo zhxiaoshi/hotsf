@@ -4,14 +4,11 @@
 *! Update time: 27Mar2018
 *******************************************
 cap program drop hotsf
-program define softw
+program define hotsf
 version 12.0
 
 args num
 
-local direct `c(pwd)'
-
-qui: cd E:\
 
 tempname temfile //生成一个临时句柄`handle’
 
@@ -39,11 +36,11 @@ qui:	replace v1 = v[`i'] in `i'
 qui: drop if v1==""
 qui: split v1,parse(`"<td class="statnumber rightmost">"' "</td>")
 qui: keep v12
-qui: ren v12 downloads
+qui: ren v12 Num
 
 
 qui: merge 1:1 _n using name,nogen
-order SoftwareItem downloads
+order SoftwareItem Num
 
 
  list 
@@ -51,5 +48,5 @@ order SoftwareItem downloads
 erase `temfile'.txt
 erase name.dta
 clear
-qui: cd `direct'
+
 end
