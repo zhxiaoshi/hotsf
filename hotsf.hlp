@@ -1,0 +1,45 @@
+{smcl}
+{* *! version 1.0  06Jan2019}{...}
+{findalias asfradohelp}{...}
+{vieweralsosee "" "--"}{...}
+{vieweralsosee "[R] help" "help help"}{...}
+{viewerjumpto "Syntax" "examplehelpfile##syntax"}{...}
+{viewerjumpto "Description" "examplehelpfile##description"}{...}
+{viewerjumpto "Options" "examplehelpfile##options"}{...}
+{viewerjumpto "Remarks" "examplehelpfile##remarks"}{...}
+{viewerjumpto "Examples" "examplehelpfile##examples"}{...}
+{title:Title}
+
+{phang}
+{bf:hotsf} {hline 2} Convered the data Format
+
+
+{marker syntax}{...}
+
+{title:Syntax}
+
+{p 8 17 2}
+{cmdab:hotsf}
+{#}
+
+
+{marker description}{...}
+{title:Description}
+
+{pstd}
+{cmd:hotsf} Display the hot software items. {break}
+
+
+
+
+{title:Author}
+
+{phang}
+{cmd:Xiaoshi,Zhou} Economics and Management College, Huazhong Agricultural University.{break}
+E-mail: {browse "mailto:xiaoshi.zhou@outlook.com":xiaoshi.zhou@outlook.com}. {break}
+{p_end}
+
+{title:Also see}
+
+{psee}
+Online: {help list},{p_end}

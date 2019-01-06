@@ -1,0 +1,8 @@
+d 'hotsf': display the hot software items    {break}
+d version (release) as well as their dependencies from 
+d {browse "https://github.com/zhxiaoshi/hotsf":GitHub} website
+d
+d Distribution-Date: 20190106
+d
+F hotsf.ado
+F hotsf.hlp

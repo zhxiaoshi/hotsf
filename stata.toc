@@ -1,0 +1,6 @@
+v 1.2
+d Xiaoshi Zhou, Huazhong Agricultural University (xiaoshi.zhou@outlook.com)
+d 'hotsf': display the hot software items  {break}
+d version (release) as well as their dependencies from 
+d {browse "https://github.com/zhxiaoshi/hotsf} website
+p hotsf
